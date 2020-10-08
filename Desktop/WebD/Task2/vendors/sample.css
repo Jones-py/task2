@@ -1,0 +1,91 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../task2-images/header.jpg");
+  background-attachment: fixed;
+}
+/* from here */
+header {height: 50px;
+        background-color: rgb(50,50, 1);
+        padding-top: 5px
+        
+      }
+.left{background-color: inherit;
+      float: left;
+      font-size: 13px;
+      margin:15px;
+      color: white;
+
+      }
+
+.right {background-color: inherit;
+       float: right;
+       margin: 15px;
+       font-size: 13px;
+       color: white;
+     }
+
+header ul{margin: 0;
+  padding: 0;
+              }
+header ul a {color: white;
+  text-decoration: none;
+}
+header li {list-style: none;
+}
+header ul:after {
+}
+/* Up to here is the implementation of the header part */
+/*.main-header img {text-align: center;
+                   width:220x;
+                   height: 50px;
+                   text-align: center;} */
+
+/* Implementation of main image (white “Achieve” text image) */
+
+.main-header img{ height: 90px;
+                  align-items: center;
+                   margin-left: 50px;
+                   margin-right: 85px;
+                   margin-top: 160px;
+}
+
+.about {text-emphasis-style: filled;
+/* About Achieve部分の実装 */
+}
+/* from here */
+.function {height: auto;
+                  width: auto;
+                  background-color: #e4e3e3;
+                  text-align: center;
+}
+.function-images {height: auto;
+                  width: auto;
+                  background-color:#e4e3e3;
+                  display: inline-flex;
+
+}
+.function-image {text-align:center;
+                 margin: 25px;
+                 widith:100%;
+}
+/* Up to here is the implementation of the function part */
+footer {width: 100%;
+        height: 70px;
+        margin-top: -0.69%;
+        font-size: 0.6rem;
+        color: white;
+        text-align: center;
+        background:#2d4059;
+}
+/* Implementation of footer part */
+
+/* The description of css written here is a template prepared only as a hint, so if you want to implement it without following the written description, you can implement it as you like. Any implementation will pass if it is determined that the task requirements are met and the code quality is at a certain level. */
